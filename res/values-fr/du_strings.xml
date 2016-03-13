@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://android.googlesource.com/platform/packages/apps/Contacts/+/bc560ba3be60e54870da2befff2b5480283d8a22/res/values-fr/strings.xml
+     French translation for Dirty Unicorns
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Menu item (in the action bar) to indicate that changes should be saved [CHAR LIMIT=20] -->
+    <string name="menu_save">Enregistrer</string>
+
+    <!-- Toast displayed when saving a contact photo failed. [CHAR LIMIT=NONE] -->
+    <string name="contactPhotoSavedErrorToast">Impossible d\'enregistrer les modifications apportées à la photo du contact.</string>
+
+    <!-- String describing that a contact came from the google account type when editing it.  -->
+    <string name="google_account_type_format">Compte <xliff:g id="source" example="Google">%1$s</xliff:g></string>
+
+    <!-- Content description for the compact contact editor photo overlay which, when clicked, shows a dialog with the options for changing the contact photo. [CHAR LIMIT=30] -->
+    <string name="compact_editor_change_photo_content_description">Changer de photo</string>
+
+    <!-- Quick contact display name with phonetic name -->
+    <string name="quick_contact_display_name_with_phonetic"><xliff:g id="display_name">%s</xliff:g> (<xliff:g id="phonetic_name">%s</xliff:g>)</string>
+
+</resources>
