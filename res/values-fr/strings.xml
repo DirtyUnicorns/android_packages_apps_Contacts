@@ -110,7 +110,7 @@
   <!-- Menu item that joins an aggregate with another aggregate -->
   <string name="menu_joinAggregate">Fusionner</string>
   <!-- Menu item (in the action bar) to indicate that changes should be saved [CHAR LIMIT=20] -->
-  <string name="menu_save">Save</string>
+  <string name="menu_save">Enregistrer</string>
   <!-- Heading of the Join Contact screen -->
   <string name="titleJoinContactDataWith">Joindre les contacts</string>
   <!-- Info blurb on the Join Contact screen [CHAR LIMIT=NONE]-->
@@ -199,7 +199,7 @@
   <!-- Toast displayed when saving a contact failed. [CHAR LIMIT=NONE] -->
   <string name="contactSavedErrorToast">Impossible d\'enregistrer les modifications apportées au contact.</string>
   <!-- Toast displayed when saving a contact photo failed. [CHAR LIMIT=NONE] -->
-  <string name="contactPhotoSavedErrorToast">Couldn\'t save contact photo changes.</string>
+  <string name="contactPhotoSavedErrorToast">Impossible d\'enregistrer les modifications apportées à la photo du contact.</string>
   <!-- Toast displayed when a group is saved [CHAR LIMIT=NONE] -->
   <string name="groupSavedToast">Groupe enregistré</string>
   <!-- Toast displayed when saving a group failed [CHAR LIMIT=NONE] -->
@@ -287,7 +287,7 @@
   <!-- String describing which account type a contact came from when editing it -->
   <string name="account_type_format">Contact <xliff:g id="SOURCE">%1$s</xliff:g></string>
   <!-- String describing that a contact came from the google account type when editing it.  -->
-  <string name="google_account_type_format"><xliff:g id="source" example="Google">%1$s</xliff:g> account</string>
+  <string name="google_account_type_format">Compte <xliff:g id="source" example="Google">%1$s</xliff:g></string>
   <!-- String describing which account a contact came from when editing it -->
   <string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s</xliff:g></string>
   <!-- Text used to explain that a contact cannot be edited from the People application since the data is read only [CHAR LIMIT=40] -->
@@ -553,7 +553,7 @@
   <!-- Button to expand the compact contact editor to show all available input fields. [CHAR LIMIT=60] -->
   <string name="compact_editor_more_fields">Autres champs</string>
   <!-- Content description for the compact contact editor photo overlay which, when clicked, shows a dialog with the options for changing the contact photo. [CHAR LIMIT=30] -->
-  <string name="compact_editor_change_photo_content_description">Change photo</string>
+  <string name="compact_editor_change_photo_content_description">Changer de photo</string>
   <!-- Quick contact display name with phonetic name -->
   <string name="quick_contact_display_name_with_phonetic"><xliff:g id="display_name">%s</xliff:g> (<xliff:g id="phonetic_name">%s</xliff:g>)</string>
 </resources>
