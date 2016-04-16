@@ -68,7 +68,7 @@
   <!-- The tab label for the contact detail activity that displays information about the contact [CHAR LIMIT=15] -->
   <string name="contactDetailAbout">Über</string>
   <!-- The tab label for the contact detail activity that displays information about the contact [CHAR LIMIT=15] -->
-  <string name="contactDetailUpdates">Updates</string>
+  <string name="contactDetailUpdates">Aktuelles</string>
   <!-- Hint text in the search box when the user hits the Search key while in the contacts app -->
   <string name="searchHint">In Kontakten suchen</string>
   <!-- Menu item used to view the details for a specific contact -->
@@ -110,7 +110,7 @@
   <!-- Menu item that joins an aggregate with another aggregate -->
   <string name="menu_joinAggregate">Zusammenführen</string>
   <!-- Menu item (in the action bar) to indicate that changes should be saved [CHAR LIMIT=20] -->
-  <string name="menu_save">Save</string>
+  <string name="menu_save">Speichern</string>
   <!-- Heading of the Join Contact screen -->
   <string name="titleJoinContactDataWith">Kontakte zusammenführen</string>
   <!-- Info blurb on the Join Contact screen [CHAR LIMIT=NONE]-->
@@ -199,7 +199,7 @@
   <!-- Toast displayed when saving a contact failed. [CHAR LIMIT=NONE] -->
   <string name="contactSavedErrorToast">Kontaktänderungen konnten nicht gespeichert werden.</string>
   <!-- Toast displayed when saving a contact photo failed. [CHAR LIMIT=NONE] -->
-  <string name="contactPhotoSavedErrorToast">Couldn\'t save contact photo changes.</string>
+  <string name="contactPhotoSavedErrorToast">Kontaktfoto konnte nicht geändert werden.</string>
   <!-- Toast displayed when a group is saved [CHAR LIMIT=NONE] -->
   <string name="groupSavedToast">Gruppe gespeichert</string>
   <!-- Toast displayed when saving a group failed [CHAR LIMIT=NONE] -->
@@ -245,7 +245,7 @@
 
          Used by AccessibilityService to announce the purpose of the button.
     -->
-  <string name="description_plus_button">plus</string>
+  <string name="description_plus_button">Plus</string>
   <!-- Message in progress bar while exporting contact list to a file "(current number) of (total number) contacts" The order of "current number" and "total number" cannot be changed (like "total: (total number), current: (current number)")-->
   <string name="exporting_contact_list_progress"><xliff:g id="CURRENT_NUMBER">%s</xliff:g> von <xliff:g id="TOTAL_NUMBER">%s</xliff:g> Kontakten</string>
   <!-- The string used to describe Contacts as a searchable item within system search settings. -->
@@ -287,7 +287,7 @@
   <!-- String describing which account type a contact came from when editing it -->
   <string name="account_type_format"><xliff:g id="SOURCE">%1$s</xliff:g>-Kontakt</string>
   <!-- String describing that a contact came from the google account type when editing it.  -->
-  <string name="google_account_type_format"><xliff:g id="source" example="Google">%1$s</xliff:g> account</string>
+  <string name="google_account_type_format"><xliff:g id="source" example="Google">%1$s</xliff:g> Konto</string>
   <!-- String describing which account a contact came from when editing it -->
   <string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s</xliff:g></string>
   <!-- Text used to explain that a contact cannot be edited from the People application since the data is read only [CHAR LIMIT=40] -->
@@ -510,11 +510,11 @@
   <!-- Header for the Organization entry [CHAR LIMIT=40] -->
   <string name="header_organization_entry">Organisation</string>
   <!-- Header for the Nickname entry [CHAR LIMIT=40] -->
-  <string name="header_nickname_entry">Nickname</string>
+  <string name="header_nickname_entry">Spitzname</string>
   <!-- Header for the Note entry [CHAR LIMIT=40] -->
   <string name="header_note_entry">Notiz</string>
   <!-- Header for the Website entry [CHAR LIMIT=40] -->
-  <string name="header_website_entry">Website</string>
+  <string name="header_website_entry">Webseite</string>
   <!-- Header for the Event entry [CHAR LIMIT=40] -->
   <string name="header_event_entry">Termin</string>
   <!-- Header for the Relation entry [CHAR LIMIT=40] -->
@@ -553,7 +553,7 @@
   <!-- Button to expand the compact contact editor to show all available input fields. [CHAR LIMIT=60] -->
   <string name="compact_editor_more_fields">Weitere Felder</string>
   <!-- Content description for the compact contact editor photo overlay which, when clicked, shows a dialog with the options for changing the contact photo. [CHAR LIMIT=30] -->
-  <string name="compact_editor_change_photo_content_description">Change photo</string>
+  <string name="compact_editor_change_photo_content_description">Foto ändern</string>
   <!-- Quick contact display name with phonetic name -->
   <string name="quick_contact_display_name_with_phonetic"><xliff:g id="display_name">%s</xliff:g> (<xliff:g id="phonetic_name">%s</xliff:g>)</string>
 </resources>
