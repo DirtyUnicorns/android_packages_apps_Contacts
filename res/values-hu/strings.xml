@@ -366,7 +366,6 @@
   <string name="preference_displayOptions">Megjelenítési beállítások</string>
   <!-- Text used to show a organization that has both a company and title. This is used in the Detail-View
     of a Contact. This is mostly about the formatting of the two elements, so it should be kept small [CHAR LIMIT=79] -->
-  <string name="organization_company_and_title"><xliff:g id="COMPANY_0">%2$s</xliff:g>, <xliff:g id="COMPANY_1">%1$s</xliff:g></string>
   <!-- Title shown for the phone number when the number tries to call on a device that it not a phone [CHAR LIMIT=30] -->
   <string name="non_phone_caption">Telefonszám</string>
   <!-- Button to add a phone number to contacts [CHAR LIMIT=25] -->
@@ -376,7 +375,6 @@
   <!-- Button to close without add a phone number to contacts [CHAR LIMIT=25] -->
   <string name="non_phone_close">Bezárás</string>
   <!-- Format string that combines the name and the phonetic name for the widget. if the phonetic name is empty, only the display name is used instead [CHAR LIMIT=25] -->
-  <string name="widget_name_and_phonetic"><xliff:g id="DISPLAY_NAME">%1$s</xliff:g> (<xliff:g id="PHONETIC_NAME">%2$s</xliff:g>)</string>
   <!-- Checkbox whether to provide a year for a birthday [CHAR LIMIT=30] -->
   <string name="date_year_toggle">Születési év megadása</string>
   <!-- Label for the widget that shows picture and social status of a contact [CHAR LIMIT=20] -->
@@ -405,13 +403,13 @@
   <string name="delete_group_dialog_message">Törli a következő csoportot \"<xliff:g id="GROUP_LABEL">%1$s</xliff:g>\"? (Maguk a névjegyek nem kerülnek törlésre.)</string>
   <!-- Subtitle of the group detail page that describes how many people are in the current group [CHAR LIMIT=30] -->
   <plurals name="num_contacts_in_group">
-    <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> személy a(z) <xliff:g id="ACCOUNT_TYPE_1">%2$s</xliff:g> csoportból</item>
-    <item quantity="other"><xliff:g id="COUNT_2">%1$d</xliff:g> személy a(z) <xliff:g id="ACCOUNT_TYPE_3">%2$s</xliff:g> csoportból</item>
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> személy a(z) <xliff:g id="account_type">%2$s</xliff:g> csoportból</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> személy a(z) <xliff:g id="account_type">%2$s</xliff:g> csoportból</item>
   </plurals>
   <!-- Subtitle of a group (in the group list) that describes how many people are in the current group [CHAR LIMIT=30] -->
   <plurals name="group_list_num_contacts_in_group">
-    <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> személy</item>
-    <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> személy</item>
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> személy</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> személy</item>
   </plurals>
   <!-- Toast displayed when the user creates a new contact and attempts to join it
       with another before entering any data  [CHAR LIMIT=256] -->
@@ -427,7 +425,6 @@
   <!-- Contents of the alert dialog when the user hits the Cancel button in the editor [CHAR LIMIT=128] -->
   <string name="cancel_confirmation_dialog_message">Elveti a módosításokat?</string>
   <!-- Description of a call log entry, made of a call type and a date -->
-  <string name="call_type_and_date"><xliff:g id="CALL_TYPE">%1$s</xliff:g> -- <xliff:g id="CALL_SHORT_DATE">%2$s</xliff:g></string>
   <!-- Text displayed in place of the display name for the contact that represents the user's
       personal profile entry [CHAR LIMIT=64] -->
   <string name="profile_display_name">Saját profil beállítása</string>
@@ -500,7 +497,7 @@
   <string name="tomorrow_at_time_fmt">"Holnap <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
   <!-- Format string for a date and time description.  For ex:
          "April 19, 2012, 3:00pm - 4:00pm" [CHAR LIMIT=NONE] -->
-  <string name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+  <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
   <!-- Title for untitled calendar interactions [CHAR LIMIT=40] -->
   <string name="untitled_event">(Névtelen esemény)</string>
   <!-- Name of the button in the date/time picker to accept the date/time change [CHAR LIMIT=15] -->
@@ -555,5 +552,4 @@
   <!-- Content description for the compact contact editor photo overlay which, when clicked, shows a dialog with the options for changing the contact photo. [CHAR LIMIT=30] -->
   <string name="compact_editor_change_photo_content_description">Fénykép lecserélése</string>
   <!-- Quick contact display name with phonetic name -->
-  <string name="quick_contact_display_name_with_phonetic"><xliff:g id="display_name">%s</xliff:g> (<xliff:g id="phonetic_name">%s</xliff:g>)</string>
 </resources>

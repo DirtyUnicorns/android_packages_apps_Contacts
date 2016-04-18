@@ -366,7 +366,6 @@
   <string name="preference_displayOptions">Näyttövalinnat</string>
   <!-- Text used to show a organization that has both a company and title. This is used in the Detail-View
     of a Contact. This is mostly about the formatting of the two elements, so it should be kept small [CHAR LIMIT=79] -->
-  <string name="organization_company_and_title"><xliff:g id="COMPANY_0">%2$s</xliff:g>, <xliff:g id="COMPANY_1">%1$s</xliff:g></string>
   <!-- Title shown for the phone number when the number tries to call on a device that it not a phone [CHAR LIMIT=30] -->
   <string name="non_phone_caption">Puhelinnumero</string>
   <!-- Button to add a phone number to contacts [CHAR LIMIT=25] -->
@@ -376,7 +375,6 @@
   <!-- Button to close without add a phone number to contacts [CHAR LIMIT=25] -->
   <string name="non_phone_close">Sulje</string>
   <!-- Format string that combines the name and the phonetic name for the widget. if the phonetic name is empty, only the display name is used instead [CHAR LIMIT=25] -->
-  <string name="widget_name_and_phonetic"><xliff:g id="DISPLAY_NAME">%1$s</xliff:g> (<xliff:g id="PHONETIC_NAME">%2$s</xliff:g>)</string>
   <!-- Checkbox whether to provide a year for a birthday [CHAR LIMIT=30] -->
   <string name="date_year_toggle">Anna vuosi</string>
   <!-- Label for the widget that shows picture and social status of a contact [CHAR LIMIT=20] -->
@@ -427,7 +425,6 @@
   <!-- Contents of the alert dialog when the user hits the Cancel button in the editor [CHAR LIMIT=128] -->
   <string name="cancel_confirmation_dialog_message">Hylätäänkö muutokset?</string>
   <!-- Description of a call log entry, made of a call type and a date -->
-  <string name="call_type_and_date"><xliff:g id="CALL_TYPE">%1$s</xliff:g> <xliff:g id="CALL_SHORT_DATE">%2$s</xliff:g></string>
   <!-- Text displayed in place of the display name for the contact that represents the user's
       personal profile entry [CHAR LIMIT=64] -->
   <string name="profile_display_name">Luo profiili</string>
@@ -555,5 +552,4 @@
   <!-- Content description for the compact contact editor photo overlay which, when clicked, shows a dialog with the options for changing the contact photo. [CHAR LIMIT=30] -->
   <string name="compact_editor_change_photo_content_description">Change photo</string>
   <!-- Quick contact display name with phonetic name -->
-  <string name="quick_contact_display_name_with_phonetic"><xliff:g id="display_name">%s</xliff:g> (<xliff:g id="phonetic_name">%s</xliff:g>)</string>
 </resources>
