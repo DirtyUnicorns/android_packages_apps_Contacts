@@ -287,7 +287,7 @@
   <!-- String describing which account type a contact came from when editing it -->
   <string name="account_type_format">Contacto de <xliff:g id="SOURCE">%1$s</xliff:g></string>
   <!-- String describing that a contact came from the google account type when editing it.  -->
-  <string name="google_account_type_format"><xliff:g id="source" example="Google">%1$s</xliff:g> account</string>
+  <string name="google_account_type_format">Cuenta <xliff:g id="source" example="Google">%1$s</xliff:g></string>
   <!-- String describing which account a contact came from when editing it -->
   <string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s</xliff:g></string>
   <!-- Text used to explain that a contact cannot be edited from the People application since the data is read only [CHAR LIMIT=40] -->
