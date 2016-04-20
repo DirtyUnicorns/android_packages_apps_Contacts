@@ -167,7 +167,7 @@
     <!-- An organization associated with a contact -->
     <item>Organizacja</item>
     <!-- A note associated with a contact -->
-    <item>Notatka</item>
+    <item>Uwaga</item>
   </string-array>
   <!-- Description in the dialog that appears if there are no pictures from which to create an icon for a contact -->
   <string name="photoPickerNotFoundText" product="tablet">Brak zdjęć dostępnych w tablecie.</string>
@@ -516,7 +516,7 @@
   <!-- Header for the Nickname entry [CHAR LIMIT=40] -->
   <string name="header_nickname_entry">Pseudonim</string>
   <!-- Header for the Note entry [CHAR LIMIT=40] -->
-  <string name="header_note_entry">Notatka</string>
+  <string name="header_note_entry">Uwaga</string>
   <!-- Header for the Website entry [CHAR LIMIT=40] -->
   <string name="header_website_entry">Strona internetowa</string>
   <!-- Header for the Event entry [CHAR LIMIT=40] -->
