@@ -193,7 +193,7 @@
   <!-- The text displayed to instruct users to add members to a group (when viewing a group detail page for a group with no members) [CHAR LIMIT=50] -->
   <string name="addPeopleToGroup">Felhasználók hozzáadásához szerkessze a csoportot.</string>
   <!-- Displayed in a spinner dialog after the user creates a contact and it's being saved to the database -->
-  <string name="savingContact">Névjegy mentése...</string>
+  <string name="savingContact">Névjegy mentése\u2026</string>
   <!-- Toast displayed when a contact is saved [CHAR LIMIT=NONE] -->
   <string name="contactSavedToast">Névjegy mentve.</string>
   <!-- Toast displayed when saving a contact failed. [CHAR LIMIT=NONE] -->
@@ -305,7 +305,7 @@
   <!-- Text shown in the contacts app while the background process updates contacts after a system upgrade [CHAR LIMIT=300] -->
   <string name="upgrade_in_progress">Az ismerőslista frissítése folyamatban van.</string>
   <!-- Title shown in the search result activity of contacts app while searching.  [CHAR LIMIT=20] -->
-  <string name="search_results_searching">Keresés...</string>
+  <string name="search_results_searching">Keresés\u2026</string>
   <!-- Label to display only selection in multiple picker -->
   <string name="menu_display_selected">"Kiválasztottak megjelenítése"</string>
   <!-- Label to display all recipients in multiple picker -->
@@ -380,7 +380,7 @@
   <!-- Label for the widget that shows picture and social status of a contact [CHAR LIMIT=20] -->
   <string name="social_widget_label">Névjegy</string>
   <!-- Message of widget while it is loading data [CHAR LIMIT=20] -->
-  <string name="social_widget_loading">Betöltés...</string>
+  <string name="social_widget_loading">Betöltés\u2026</string>
   <!-- Button shown on the main contacts screen when there are no contacts on the device.
     Creates a new contact. [CHAR LIMIT=128] -->
   <string name="contacts_unavailable_create_contact">Új névjegy létrehozása</string>
