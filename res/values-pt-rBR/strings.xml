@@ -43,9 +43,9 @@
   <!-- Activity title when the user is selecting a contact.  [CHAR LIMIT=128] -->
   <string name="contactPickerActivityTitle">Selecionar um contato</string>
   <!-- Entry that prompts user to select a newly created contact.  [CHAR LIMIT=30] -->
-  <string name="header_entry_contact_list_adapter_header_title">Create new contact</string>
+  <string name="header_entry_contact_list_adapter_header_title">Criar novo contato</string>
   <!-- Title for the activity that shows only starred contacts -->
-  <string name="starredList">Starred</string>
+  <string name="starredList">Com estrela</string>
   <!-- Title for the activity that shows only frequently contacted contacts -->
   <string name="frequentList">Frequente</string>
   <!-- Title for the activity that shows a mix of starred contacts and frequently contacted
@@ -66,37 +66,37 @@
          creating a new group. This string represents the built in way to create the group. [CHAR LIMIT=NONE] -->
   <string name="insertGroupDescription">Criar grupo</string>
   <!-- The tab label for the contact detail activity that displays information about the contact [CHAR LIMIT=15] -->
-  <string name="contactDetailAbout">About</string>
+  <string name="contactDetailAbout">Sobre</string>
   <!-- The tab label for the contact detail activity that displays information about the contact [CHAR LIMIT=15] -->
-  <string name="contactDetailUpdates">Updates</string>
+  <string name="contactDetailUpdates">Atualizações</string>
   <!-- Hint text in the search box when the user hits the Search key while in the contacts app -->
-  <string name="searchHint">Search contacts</string>
+  <string name="searchHint">Pesquisar contatos</string>
   <!-- Menu item used to view the details for a specific contact -->
-  <string name="menu_viewContact">View contact</string>
+  <string name="menu_viewContact">Visualizar contato</string>
   <!-- Menu item used to add a star to a contact, which makes that contact show up at the top of favorites -->
-  <string name="menu_addStar">Add to favorites</string>
+  <string name="menu_addStar">Adicionar aos favoritos</string>
   <!-- Menu item used to remove a star from a contact, making the contact no longer show up at the top of favorites -->
-  <string name="menu_removeStar">Remove from favorites</string>
+  <string name="menu_removeStar">Remover dos favoritos</string>
   <!-- Description of what happens when you click on the unstar MenuItem. [CHAR LIMIT=NONE] -->
-  <string name="description_action_menu_remove_star">Removed from favorites</string>
+  <string name="description_action_menu_remove_star">Removido dos favoritos</string>
   <!-- Description of what happens when you click on the star MenuItem. [CHAR LIMIT=NONE] -->
-  <string name="description_action_menu_add_star">Added to favorites</string>
+  <string name="description_action_menu_add_star">Adicionado aos favoritos</string>
   <!-- Menu item used to edit a specific contact -->
-  <string name="menu_editContact">Edit</string>
+  <string name="menu_editContact">Editar</string>
   <!-- Menu item used to delete a specific contact -->
-  <string name="menu_deleteContact">Delete</string>
+  <string name="menu_deleteContact">Excluir</string>
   <!-- Menu item used to change the photo for a specific contact [CHAR LIMIT=30]-->
-  <string name="menu_change_photo">Change photo</string>
+  <string name="menu_change_photo">Alterar foto</string>
   <!-- Menu item used to create a contact shortcut when viewing contact details. [CHAR LIMIT=30] -->
-  <string name="menu_create_contact_shortcut">Place on Home screen</string>
+  <string name="menu_create_contact_shortcut">Colocar na Tela inicial</string>
   <!-- Menu item used to call a specific contact when viewing the details of that contact. -->
-  <string name="menu_call">Call contact</string>
+  <string name="menu_call">Chamar contato</string>
   <!-- Menu item used to send an SMS or MMS message to a specific phone number or a contacts default phone number -->
-  <string name="menu_sendSMS">Text contact</string>
+  <string name="menu_sendSMS">Enviar Sms para contato</string>
   <!-- Menu item that splits an item from the contact detail into a separate aggregate -->
-  <string name="menu_splitAggregate">Separate</string>
+  <string name="menu_splitAggregate">Separar</string>
   <!-- Menu item that edits the currently selected group [CHAR LIMIT=30] -->
-  <string name="menu_editGroup">Edit</string>
+  <string name="menu_editGroup">Editar</string>
   <!-- Menu item that deletes the currently selected group [CHAR LIMIT=30] -->
   <string name="menu_deleteGroup">Delete</string>
   <!-- Menu item (in the action bar) that creates a new contact [CHAR LIMIT=30] -->
@@ -104,11 +104,11 @@
   <!-- Menu item (in the action bar) that creates a new group [CHAR LIMIT=30] -->
   <string name="menu_new_group_action_bar">Add Group</string>
   <!-- Title of the confirmation dialog for separating contacts into multiple instances [CHAR LIMIT=26] -->
-  <string name="splitConfirmation_title">Separate contact?</string>
+  <string name="splitConfirmation_title">Separar contato?</string>
   <!-- Confirmation dialog for separating contacts into multiple instances [CHAR LIMIT=NONE] -->
-  <string name="splitConfirmation">This contact will be separated into multiple contacts.</string>
+  <string name="splitConfirmation">Este contato será separado em vários contatos.</string>
   <!-- Menu item that joins an aggregate with another aggregate -->
-  <string name="menu_joinAggregate">Merge</string>
+  <string name="menu_joinAggregate">Unir</string>
   <!-- Menu item (in the action bar) to indicate that changes should be saved [CHAR LIMIT=20] -->
   <string name="menu_save">Save</string>
   <!-- Heading of the Join Contact screen -->
@@ -116,7 +116,7 @@
   <!-- Info blurb on the Join Contact screen [CHAR LIMIT=NONE]-->
   <string name="blurbJoinContactDataWith">Choose the contact you want to join with <xliff:g id="name">%s</xliff:g>:</string>
   <!-- An item in the Join Contact activity that opens up the full contact A-Z list -->
-  <string name="showAllContactsJoinItem">Show all contacts</string>
+  <string name="showAllContactsJoinItem">Mostrar todos os contatos</string>
   <!-- List separator for the Join Contact list: Suggestions -->
   <string name="separatorJoinAggregateSuggestions">Suggested contacts</string>
   <!-- List separator for the Join Contact list: A-Z -->
