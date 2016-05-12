@@ -98,11 +98,11 @@
   <!-- Menu item that edits the currently selected group [CHAR LIMIT=30] -->
   <string name="menu_editGroup">Editar</string>
   <!-- Menu item that deletes the currently selected group [CHAR LIMIT=30] -->
-  <string name="menu_deleteGroup">Delete</string>
+  <string name="menu_deleteGroup">Excluir</string>
   <!-- Menu item (in the action bar) that creates a new contact [CHAR LIMIT=30] -->
-  <string name="menu_new_contact_action_bar">Add Contact</string>
+  <string name="menu_new_contact_action_bar">Adicionar Contato</string>
   <!-- Menu item (in the action bar) that creates a new group [CHAR LIMIT=30] -->
-  <string name="menu_new_group_action_bar">Add Group</string>
+  <string name="menu_new_group_action_bar">Adicionar Grupo</string>
   <!-- Title of the confirmation dialog for separating contacts into multiple instances [CHAR LIMIT=26] -->
   <string name="splitConfirmation_title">Separar contato?</string>
   <!-- Confirmation dialog for separating contacts into multiple instances [CHAR LIMIT=NONE] -->
@@ -118,13 +118,13 @@
   <!-- An item in the Join Contact activity that opens up the full contact A-Z list -->
   <string name="showAllContactsJoinItem">Mostrar todos os contatos</string>
   <!-- List separator for the Join Contact list: Suggestions -->
-  <string name="separatorJoinAggregateSuggestions">Suggested contacts</string>
+  <string name="separatorJoinAggregateSuggestions">Contatos sugeridos</string>
   <!-- List separator for the Join Contact list: A-Z -->
-  <string name="separatorJoinAggregateAll">All contacts</string>
+  <string name="separatorJoinAggregateAll">Todos os contatos</string>
   <!-- Toast shown after two contacts have been joined by a user action. [CHAR LIMIT=NONE] -->
-  <string name="contactsJoinedMessage">Contacts merged</string>
+  <string name="contactsJoinedMessage">Contactos unidos</string>
   <!-- Toast shown after contacts that the user has selected are deleted by a user action. [CHAR LIMIT=NONE] -->
-  <string name="contacts_deleted_toast">Contacts deleted</string>
+  <string name="contacts_deleted_toast">Contatos eliminados</string>
   <!-- Menu item that opens the Options activity for a given contact [CHAR LIMIT=15] -->
   <string name="menu_set_ring_tone">Set ringtone</string>
   <!-- Menu item that opens the Options activity for a given contact [CHAR LIMIT=30] -->
@@ -132,11 +132,11 @@
   <!-- Warning dialog contents after users selects to delete a ReadOnly contact. [CHAR LIMIT=NONE] -->
   <string name="readOnlyContactWarning">You can\'t delete contacts from read-only accounts, but you can hide them in your contacts lists.</string>
   <!-- Warning dialog contents after users selects to delete a contact with ReadOnly and Writable sources. -->
-  <string name="readOnlyContactDeleteConfirmation">This contact contains information from multiple accounts. Information from read-only accounts will be hidden in your contacts lists, not deleted.</string>
+  <string name="readOnlyContactDeleteConfirmation">Esse contato contém informações de várias contas. Informações de contas somente leitura estarão escondidas em suas listas de contatos, não serão excluídas.</string>
   <!-- Warning dialog. Shown if user selects a single contact to merge. [CHAR LIMIT=NONE]  -->
-  <string name="batch_merge_single_contact_warning">You need at least two contacts selected to perform a merge.</string>
+  <string name="batch_merge_single_contact_warning">Você precisa de pelo menos dois contatos selecionados para efetuar uma união.</string>
   <!-- Confirmation dialog. Shown after user selects to merge contacts. [CHAR LIMIT=NONE]  -->
-  <string name="batch_merge_confirmation">The selected contacts will be merged into a single contact.</string>
+  <string name="batch_merge_confirmation">Os contatos selecionados vão ser unidos em um único contato.</string>
   <!-- Confirmation dialog. Shown after user selects to delete writable contacts. [CHAR LIMIT=NONE]  -->
   <string name="batch_delete_confirmation">The selected contacts will be deleted.</string>
   <!-- Confirmation dialog. Shown after user selects to delete readonly contacts. [CHAR LIMIT=NONE] -->
