@@ -112,7 +112,7 @@
   <!-- Menu item (in the action bar) to indicate that changes should be saved [CHAR LIMIT=20] -->
   <string name="menu_save">Salvar</string>
   <!-- Heading of the Join Contact screen -->
-  <string name="titleJoinContactDataWith">Join contacts</string>
+  <string name="titleJoinContactDataWith">Unir contatos</string>
   <!-- Info blurb on the Join Contact screen [CHAR LIMIT=NONE]-->
   <string name="blurbJoinContactDataWith">Choose the contact you want to join with <xliff:g id="name">%s</xliff:g>:</string>
   <!-- An item in the Join Contact activity that opens up the full contact A-Z list -->
