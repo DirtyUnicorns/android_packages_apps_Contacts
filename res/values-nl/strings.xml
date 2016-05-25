@@ -110,7 +110,7 @@
   <!-- Menu item that joins an aggregate with another aggregate -->
   <string name="menu_joinAggregate">Samenvoegen</string>
   <!-- Menu item (in the action bar) to indicate that changes should be saved [CHAR LIMIT=20] -->
-  <string name="menu_save">Save</string>
+  <string name="menu_save">Opslaan</string>
   <!-- Heading of the Join Contact screen -->
   <string name="titleJoinContactDataWith">Contacten samenvoegen</string>
   <!-- Info blurb on the Join Contact screen [CHAR LIMIT=NONE]-->
@@ -199,7 +199,7 @@
   <!-- Toast displayed when saving a contact failed. [CHAR LIMIT=NONE] -->
   <string name="contactSavedErrorToast">Kan wijzigingen in contact niet opslaan.</string>
   <!-- Toast displayed when saving a contact photo failed. [CHAR LIMIT=NONE] -->
-  <string name="contactPhotoSavedErrorToast">Couldn\'t save contact photo changes.</string>
+  <string name="contactPhotoSavedErrorToast">Kon contact foto wijzigingen niet opslaan.</string>
   <!-- Toast displayed when a group is saved [CHAR LIMIT=NONE] -->
   <string name="groupSavedToast">Groep opgeslagen.</string>
   <!-- Toast displayed when saving a group failed [CHAR LIMIT=NONE] -->
@@ -483,7 +483,7 @@
   <!-- Title of sms action entry. [CHAR LIMIT=60] -->
   <string name="send_message">Bericht verzenden</string>
   <!-- Toast that appears when you are copying a directory contact into your personal contacts -->
-  <string name="toast_making_personal_copy">Creating a personal copy\u2026</string>
+  <string name="toast_making_personal_copy">Persoonlijke kopie aan het maken\u2026</string>
   <!-- Timestamp string for interactions from yesterday. [CHAR LIMIT=40] -->
   <string name="yesterday">Gisteren</string>
   <string name="tomorrow">Morgen</string>
@@ -550,6 +550,6 @@
   <!-- Button to expand the compact contact editor to show all available input fields. [CHAR LIMIT=60] -->
   <string name="compact_editor_more_fields">Meer velden</string>
   <!-- Content description for the compact contact editor photo overlay which, when clicked, shows a dialog with the options for changing the contact photo. [CHAR LIMIT=30] -->
-  <string name="compact_editor_change_photo_content_description">Change photo</string>
+  <string name="compact_editor_change_photo_content_description">Foto wijzigen</string>
   <!-- Quick contact display name with phonetic name -->
 </resources>
