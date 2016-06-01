@@ -207,6 +207,8 @@
   <!-- Displayed at the top of the contacts showing the total number of contacts visible when "Only contacts with phones" is selected -->
   <plurals name="listTotalPhoneContacts">
     <item quantity="one">איש קשר אחד עם מספר טלפון</item>
+    <item quantity="two"><xliff:g id="COUNT">%d</xliff:g> אנשי קשר עם מספרי טלפון</item>
+    <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> אנשי קשר עם מספרי טלפון</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> אנשי קשר עם מספרי טלפון</item>
   </plurals>
   <!-- Displayed at the top of the contacts showing the zero as total number of contacts visible when "Only contacts with phones" is selected [CHAR LIMIT=64]-->
@@ -214,6 +216,8 @@
   <!-- Displayed at the top of the contacts showing the total number of contacts found when "Only contacts with phones" not selected [CHAR LIMIT=30] -->
   <plurals name="listFoundAllContacts">
     <item quantity="one">אחד נמצא</item>
+    <item quantity="two">נמצאו <xliff:g id="COUNT">%d</xliff:g></item>
+    <item quantity="many">נמצאו <xliff:g id="COUNT">%d</xliff:g></item>
     <item quantity="other">נמצאו <xliff:g id="COUNT">%d</xliff:g></item>
   </plurals>
   <!-- Displayed at the top of the contacts showing the zero total number of contacts found when "Only contacts with phones" not selected. [CHAR LIMIT=30] -->
@@ -221,6 +225,8 @@
   <!-- Displayed at the top of the contacts showing the total number of contacts found when typing search query -->
   <plurals name="searchFoundContacts">
     <item quantity="one">אחד נמצא</item>
+    <item quantity="two">נמצאו <xliff:g id="COUNT">%d</xliff:g></item>
+    <item quantity="many">נמצאו <xliff:g id="COUNT">%d</xliff:g></item>
     <item quantity="other">נמצאו <xliff:g id="COUNT">%d</xliff:g></item>
   </plurals>
   <!-- The title of "all contacts" tab. [CHAR LIMIT=14] -->
@@ -337,6 +343,8 @@
          anyway if we change our mind later -->
   <plurals name="merge_info">
     <item quantity="one">לא מוזגו</item>
+    <item quantity="two">מוזגו מ-<xliff:g id="COUNT">%0$d</xliff:g> מקורות</item>
+    <item quantity="many">מוזגו מ-<xliff:g id="COUNT">%0$d</xliff:g> מקורות</item>
     <item quantity="other">מוזגו מ-<xliff:g id="COUNT">%0$d</xliff:g> מקורות</item>
   </plurals>
   <!-- The message in a confirmation dialog shown when the user selects a
@@ -397,6 +405,8 @@
   <!-- Shows how many groups are from the specified account [CHAR LIMIT=15] -->
   <plurals name="num_groups_in_account">
     <item quantity="one">קבוצה אחת</item>
+    <item quantity="two"><xliff:g id="COUNT">%0$d</xliff:g> קבוצות</item>
+    <item quantity="many"><xliff:g id="COUNT">%0$d</xliff:g> קבוצות</item>
     <item quantity="other"><xliff:g id="COUNT">%0$d</xliff:g> קבוצות</item>
   </plurals>
   <!-- Confirmation message of the dialog that allows deletion of a contact group  [CHAR LIMIT=256] -->
@@ -404,11 +414,15 @@
   <!-- Subtitle of the group detail page that describes how many people are in the current group [CHAR LIMIT=30] -->
   <plurals name="num_contacts_in_group">
     <item quantity="one">אדם <xliff:g id="COUNT_0">%1$d</xliff:g> מ-<xliff:g id="ACCOUNT_TYPE_1">%2$s</xliff:g></item>
+    <item quantity="two"><xliff:g id="COUNT_2">%1$d</xliff:g> אנשים מ-<xliff:g id="ACCOUNT_TYPE_3">%2$s</xliff:g></item>
+    <item quantity="many"><xliff:g id="COUNT_2">%1$d</xliff:g> אנשים מ-<xliff:g id="ACCOUNT_TYPE_3">%2$s</xliff:g></item>
     <item quantity="other"><xliff:g id="COUNT_2">%1$d</xliff:g> אנשים מ-<xliff:g id="ACCOUNT_TYPE_3">%2$s</xliff:g></item>
   </plurals>
   <!-- Subtitle of a group (in the group list) that describes how many people are in the current group [CHAR LIMIT=30] -->
   <plurals name="group_list_num_contacts_in_group">
     <item quantity="one">אדם <xliff:g id="COUNT_0">%1$d</xliff:g></item>
+    <item quantity="two"><xliff:g id="COUNT_1">%1$d</xliff:g> אנשים</item>
+    <item quantity="many"><xliff:g id="COUNT_1">%1$d</xliff:g> אנשים</item>
     <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> אנשים</item>
   </plurals>
   <!-- Toast displayed when the user creates a new contact and attempts to join it

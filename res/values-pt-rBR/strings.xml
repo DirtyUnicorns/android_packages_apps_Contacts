@@ -336,16 +336,15 @@
   <!-- Shows how many contacts have been merged. The value 1 is not shown but should be translated
          anyway if we change our mind later -->
   <plurals name="merge_info">
-    <item quantity="one">not merged</item>
-    <item quantity="other">merged from <xliff:g id="count">%0$d</xliff:g> sources</item>
+    <item quantity="one">não mesclado</item>
+    <item quantity="other">mesclado de <xliff:g id="count">%0$d </xliff:g> fontes</item>
   </plurals>
   <!-- The message in a confirmation dialog shown when the user selects a
         contact aggregation suggestion in Contact editor. [CHAR LIMIT=512]-->
   <string name="aggregation_suggestion_join_dialog_message">Mesclar o contato atual com o contato selecionado?</string>
   <!-- The message in a confirmation dialog shown when the user selects a
         contact aggregation suggestion in Contact editor. [CHAR LIMIT=512]-->
-  <string name="aggregation_suggestion_edit_dialog_message">Switch to editing
-        the selected contact? Information you entered so far will be copied.</string>
+  <string name="aggregation_suggestion_edit_dialog_message">Alternar para edição do contacto selecionado? A informação introduzida até agora vai ser copiada.</string>
   <!-- The button that creates a local copy of a corporate contact. [CHAR LIMIT=40]-->
   <string name="menu_copyContact">Copiar para meus Contatos</string>
   <!-- The button that adds a contact to the predefined group "My Contacts" (as this is
@@ -354,15 +353,15 @@
          [CHAR LIMIT=40] -->
   <string name="add_to_my_contacts">Adicionar aos meus contatos</string>
   <!-- The description of the directory where the contact was found [CHAR LIMIT=100]-->
-  <string name="contact_directory_description">Directory <xliff:g id="type" example="Corporate Directory">%1$s</xliff:g></string>
+  <string name="contact_directory_description">Diretório <xliff:g id="type" example="Corporate Directory">%1$s </xliff:g></string>
   <!-- Contact list filter indicating that the list shows groups chosen by the user [CHAR LIMIT=64] -->
-  <string name="list_filter_custom">Custom</string>
+  <string name="list_filter_custom">Personalizado</string>
   <!-- Title of the settings activity [CHAR LIMIT=64] -->
   <string name="activity_title_settings">Configurações</string>
   <!-- Menu item for the settings activity [CHAR LIMIT=64] -->
   <string name="menu_settings" msgid="377929915873428211">Configurações</string>
   <!-- Menu item for invoking contextual Help & Feedback [CHAR LIMIT=64] -->
-  <string name="menu_help">Help &amp; feedback</string>
+  <string name="menu_help">Ajuda &amp; feedback</string>
   <!-- The preference section title for contact display options [CHAR LIMIT=128] -->
   <string name="preference_displayOptions">Opções de exibição</string>
   <!-- Text used to show a organization that has both a company and title. This is used in the Detail-View
@@ -381,7 +380,7 @@
   <!-- Label for the widget that shows picture and social status of a contact [CHAR LIMIT=20] -->
   <string name="social_widget_label">Contato</string>
   <!-- Message of widget while it is loading data [CHAR LIMIT=20] -->
-  <string name="social_widget_loading">Loading\u2026</string>
+  <string name="social_widget_loading">Carregando\u2026</string>
   <!-- Button shown on the main contacts screen when there are no contacts on the device.
     Creates a new contact. [CHAR LIMIT=128] -->
   <string name="contacts_unavailable_create_contact">Criar um novo contato</string>
@@ -406,18 +405,17 @@
     </string>
   <!-- Subtitle of the group detail page that describes how many people are in the current group [CHAR LIMIT=30] -->
   <plurals name="num_contacts_in_group">
-    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> person from <xliff:g id="account_type">%2$s</xliff:g></item>
-    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> people from <xliff:g id="account_type">%2$s</xliff:g></item>
+    <item quantity="one"><xliff:g id="Count_2">%1$d</xliff:g> pessoas de <xliff:g id="Account_TYPE_3">%2$s</xliff:g></item>
+    <item quantity="other"><xliff:g id="Count_2">%1$d</xliff:g> pessoas de <xliff:g id="Account_TYPE_3">%2$s</xliff:g></item>
   </plurals>
   <!-- Subtitle of a group (in the group list) that describes how many people are in the current group [CHAR LIMIT=30] -->
   <plurals name="group_list_num_contacts_in_group">
-    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> person</item>
-    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> people</item>
+    <item quantity="one"><xliff:g id="Count_0">%1$d</xliff:g> pessoa</item>
+    <item quantity="other"><xliff:g id="Count_1">%1$d</xliff:g> pessoas</item>
   </plurals>
   <!-- Toast displayed when the user creates a new contact and attempts to join it
       with another before entering any data  [CHAR LIMIT=256] -->
-  <string name="toast_join_with_empty_contact">Type contact name before joining
-      with another.
+  <string name="toast_join_with_empty_contact">Introduza o nome do contacto antes de juntar a outro contacto.
     </string>
   <!-- Option displayed in context menu to copy long pressed item to clipboard [CHAR LIMIT=64] -->
   <string name="copy_text">Copiar para a área de transferência</string>
@@ -440,14 +438,14 @@
   <!-- Header label in the contact editor for a profile that is local to the device only (and not associated with any account) [CHAR LIMIT=25] -->
   <string name="local_profile_title">Meu perfil local</string>
   <!-- Header label in the contact editor for a profile that comes from an external third-party app whose name is given by source [CHAR LIMIT=20] -->
-  <string name="external_profile_title">My <xliff:g id="external_source">%1$s</xliff:g> profile</string>
+  <string name="external_profile_title">Meu perfil <xliff:g id="external_source">%1$s </xliff:g></string>
   <!-- Toast shown when the app starts showing all contacts regardless of its current
          contact filter state. [CHAR LIMIT=64] -->
   <string name="toast_displaying_all_contacts">Exibindo todos os contatos</string>
   <!-- Message in the standard "no account" prompt that encourages the user to add a Google account before continuing to use the People app [CHAR LIMIT=NONE] -->
-  <string name="no_account_prompt">Contacts works better with a Google Account.\n\n\u2022 Access from any web browser.\n\u2022 Back up your contacts securely.</string>
+  <string name="no_account_prompt">A aplicação Contactos funciona melhor com uma Conta Google.\n\n• Aceda a partir de qualquer navegador de Internet.\n• Faça uma cópia de segurança dos seus contactos de forma segura.</string>
   <!-- Message in the standard "no account" prompt that encourages the user to add any account (non Google-specific) before continuing to use the People app [CHAR LIMIT=NONE] -->
-  <string name="generic_no_account_prompt">Keep your contacts safe even if you lose your phone: synchronize with an online service.</string>
+  <string name="generic_no_account_prompt">Mantenha os seus contactos em segurança, mesmo em caso de perda do telemóvel: sincronize com um serviço on-line.</string>
   <!-- Title of the screen that encourages the user to add any account (non Google-specific) for a better Contacts app experience [CHAR LIMIT=20] -->
   <string name="generic_no_account_prompt_title">Adicionar uma conta</string>
   <!-- Message in the contact editor prompt that notifies the user that the newly created contact will not be saved to any account, and prompts addition of an account [CHAR LIMIT=NONE] -->
@@ -471,7 +469,7 @@
   <!-- Button label to prompt the user to add another account (when there are already existing accounts on the device) [CHAR LIMIT=30] -->
   <string name="add_new_account">Adicionar nova conta</string>
   <!-- Menu item shown only when the special debug mode is enabled, which is used to send all contacts database files via email.  [CHAR LIMI=NONE] -->
-  <string name="menu_export_database">Export database files</string>
+  <string name="menu_export_database">Exportar arquivos do banco de dados</string>
   <!-- Content description for the button that adds a new contact
          [CHAR LIMIT=NONE] -->
   <string name="action_menu_add_new_contact_button">adicionar novo contato</string>
@@ -488,7 +486,7 @@
   <!-- Title of sms action entry. [CHAR LIMIT=60] -->
   <string name="send_message">Enviar mensagem</string>
   <!-- Toast that appears when you are copying a directory contact into your personal contacts -->
-  <string name="toast_making_personal_copy">Creating a personal copy\u2026</string>
+  <string name="toast_making_personal_copy">Criando uma copia pessoal\u2026</string>
   <!-- Timestamp string for interactions from yesterday. [CHAR LIMIT=40] -->
   <string name="yesterday">Ontem</string>
   <string name="tomorrow">Amanhã</string>
@@ -502,7 +500,7 @@
   <string name="tomorrow_at_time_fmt">"Amanhã às <xliff:g id="time_interval">%s</xliff:g>"</string>
   <!-- Format string for a date and time description.  For ex:
          "April 19, 2012, 3:00pm - 4:00pm" [CHAR LIMIT=NONE] -->
-  <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
+  <string name="date_time_fmt">"<xliff:g id="date">%s </xliff:g>, <xliff:g id="time_interval"> %s </xliff:g>"</string>
   <!-- Title for untitled calendar interactions [CHAR LIMIT=40] -->
   <string name="untitled_event">(Evento sem título)</string>
   <!-- Name of the button in the date/time picker to accept the date/time change [CHAR LIMIT=15] -->
@@ -532,26 +530,26 @@
   <!-- Content description for the camera icon beside the photo section in the Raw Contact Editor [CHAR LIMIT=NONE] -->
   <string name="header_photo_entry">Foto</string>
   <!-- Content description for the expand button inside the raw contact editor's header. [CHAR LIMIT=NONE] -->
-  <string name="content_description_expand_editor">Click to expand contact editor.</string>
+  <string name="content_description_expand_editor">Clique para expandir o editor de contatos.</string>
   <!-- Content description for the collapse button inside the raw contact editor's header. [CHAR LIMIT=NONE] -->
-  <string name="content_description_collapse_editor">Click to collapse contact editor.</string>
+  <string name="content_description_collapse_editor">Clique para reduzir o editor de contatos.</string>
   <!-- Content description for directions secondary button [CHAR LIMIT=NONE] -->
-  <string name="content_description_directions">directions to location</string>
+  <string name="content_description_directions">direções para a localização</string>
   <!-- Content description for recent sms interaction [CHAR LIMIT=NONE] -->
-  <string name="content_description_recent_sms">recent sms. <xliff:g id="message_body">%s</xliff:g>. <xliff:g id="phone_number">%s</xliff:g>. <xliff:g id="date">%s</xliff:g>. click to respond</string>
+  <string name="content_description_recent_sms">sms recente. <xliff:g id="Message_BODY">%s</xliff:g>. <xliff:g id="Phone_NUMBER">%s</xliff:g>. <xliff:g id="Date">%s</xliff:g>. clique para responder</string>
   <!-- Header for the Relation entry [CHAR LIMIT=NONE] -->
   <string name="content_description_recent_call_type_incoming">recebendo</string>
   <!-- Header for the Relation entry [CHAR LIMIT=NONE] -->
-  <string name="content_description_recent_call_type_outgoing">outgoing</string>
+  <string name="content_description_recent_call_type_outgoing">realizando</string>
   <!-- Header for the Relation entry [CHAR LIMIT=NONE] -->
   <string name="content_description_recent_call_type_missed">perdida</string>
   <!-- Content description for recent sms interaction [CHAR LIMIT=NONE] -->
-  <string name="content_description_recent_call">recent call. <xliff:g id="call_type">%s</xliff:g>. <xliff:g id="phone_number">%s</xliff:g>. <xliff:g id="date">%s</xliff:g>. click to call back</string>
+  <string name="content_description_recent_call">chamada recente. <xliff:g id="Call_TYPE">%s</xliff:g>. <xliff:g id="Phone_NUMBER">%s</xliff:g>. <xliff:g id="Date">%s</xliff:g>. clique para ligar de volta</string>
   <!-- Prefix for messages that you sent [CHAR LIMIT=40] -->
-  <string name="message_from_you_prefix">You: <xliff:g id="sms_body">%s</xliff:g></string>
+  <string name="message_from_you_prefix">Você: <xliff:g id="sms_body">%s</xliff:g></string>
   <!-- File Authority for the photo picker -->
   <!-- When a user tries to create an IM Hangouts field, an alert dialog pops up displaying this message. We don't want users entering email addresses of phone numbers into the IM field. [CHAR LIMIT=200] -->
-  <string name="contact_editor_hangouts_im_alert">Hangouts works better when you enter the person\'s Hangouts identifier into the email field or phone field.</string>
+  <string name="contact_editor_hangouts_im_alert">O Hangouts funciona melhor quando introduz o identificador do Hangouts da pessoa no campo do email ou no campo do telefone.</string>
   <!-- Button to expand the compact contact editor to show all available input fields. [CHAR LIMIT=60] -->
   <string name="compact_editor_more_fields">Mais campos</string>
   <!-- Content description for the compact contact editor photo overlay which, when clicked, shows a dialog with the options for changing the contact photo. [CHAR LIMIT=30] -->
