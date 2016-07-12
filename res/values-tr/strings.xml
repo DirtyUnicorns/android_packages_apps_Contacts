@@ -483,7 +483,7 @@
   <!-- Title of sms action entry. [CHAR LIMIT=60] -->
   <string name="send_message">İleti gönder</string>
   <!-- Toast that appears when you are copying a directory contact into your personal contacts -->
-  <string name="toast_making_personal_copy">Creating a personal copy\u2026</string>
+  <string name="toast_making_personal_copy">\u2026 ya kişisel kopya oluşturma</string>
   <!-- Timestamp string for interactions from yesterday. [CHAR LIMIT=40] -->
   <string name="yesterday">Dün</string>
   <string name="tomorrow">Yarın</string>
@@ -550,6 +550,6 @@
   <!-- Button to expand the compact contact editor to show all available input fields. [CHAR LIMIT=60] -->
   <string name="compact_editor_more_fields">Diğer Alanlar</string>
   <!-- Content description for the compact contact editor photo overlay which, when clicked, shows a dialog with the options for changing the contact photo. [CHAR LIMIT=30] -->
-  <string name="compact_editor_change_photo_content_description">Change photo</string>
+  <string name="compact_editor_change_photo_content_description">Fotoğrafı değiştir</string>
   <!-- Quick contact display name with phonetic name -->
 </resources>
