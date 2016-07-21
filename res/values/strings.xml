@@ -770,4 +770,8 @@
 
     <!-- Quick contact display name with phonetic name -->
     <string name="quick_contact_display_name_with_phonetic" translatable="false"><xliff:g id="display_name">%s</xliff:g> (<xliff:g id="phonetic_name">%s</xliff:g>)</string>
+
+    <!-- Contact groups display  -->
+    <string name="contacts_groups_label">Groups</string>
+    <string name="group_editor_title">Edit group</string>
 </resources>
