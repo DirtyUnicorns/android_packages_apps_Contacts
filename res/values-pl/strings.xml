@@ -559,4 +559,7 @@
   <!-- Content description for the compact contact editor photo overlay which, when clicked, shows a dialog with the options for changing the contact photo. [CHAR LIMIT=30] -->
   <string name="compact_editor_change_photo_content_description">Zmień zdjęcie</string>
   <!-- Quick contact display name with phonetic name -->
+  <!-- Contact groups display  -->
+  <string name="contacts_groups_label">Groups</string>
+  <string name="group_editor_title">Edit group</string>
 </resources>
