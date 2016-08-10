@@ -199,7 +199,7 @@
   <!-- Toast displayed when saving a contact failed. [CHAR LIMIT=NONE] -->
   <string name="contactSavedErrorToast">Не вдалося зберегти зміни в контакті.</string>
   <!-- Toast displayed when saving a contact photo failed. [CHAR LIMIT=NONE] -->
-  <string name="contactPhotoSavedErrorToast">Couldn\'t save contact photo changes.</string>
+  <string name="contactPhotoSavedErrorToast">Неможливо зберегти зміни до фото контакту.</string>
   <!-- Toast displayed when a group is saved [CHAR LIMIT=NONE] -->
   <string name="groupSavedToast">Групу збережено.</string>
   <!-- Toast displayed when saving a group failed [CHAR LIMIT=NONE] -->
@@ -490,7 +490,7 @@
   <!-- Title of sms action entry. [CHAR LIMIT=60] -->
   <string name="send_message">Надіслати повідомлення</string>
   <!-- Toast that appears when you are copying a directory contact into your personal contacts -->
-  <string name="toast_making_personal_copy">Creating a personal copy\u2026</string>
+  <string name="toast_making_personal_copy">Створення особистої копії\u2026</string>
   <!-- Timestamp string for interactions from yesterday. [CHAR LIMIT=40] -->
   <string name="yesterday">Учора</string>
   <string name="tomorrow">Завтра</string>
@@ -557,9 +557,9 @@
   <!-- Button to expand the compact contact editor to show all available input fields. [CHAR LIMIT=60] -->
   <string name="compact_editor_more_fields">Більше полів</string>
   <!-- Content description for the compact contact editor photo overlay which, when clicked, shows a dialog with the options for changing the contact photo. [CHAR LIMIT=30] -->
-  <string name="compact_editor_change_photo_content_description">Change photo</string>
+  <string name="compact_editor_change_photo_content_description">Змінити фото</string>
   <!-- Quick contact display name with phonetic name -->
   <!-- Contact groups display  -->
-  <string name="contacts_groups_label">Groups</string>
-  <string name="group_editor_title">Edit group</string>
+  <string name="contacts_groups_label">Групи</string>
+  <string name="group_editor_title">Редагувати групу</string>
 </resources>

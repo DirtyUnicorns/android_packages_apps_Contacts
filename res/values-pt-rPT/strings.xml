@@ -110,7 +110,7 @@
   <!-- Menu item that joins an aggregate with another aggregate -->
   <string name="menu_joinAggregate">Unir</string>
   <!-- Menu item (in the action bar) to indicate that changes should be saved [CHAR LIMIT=20] -->
-  <string name="menu_save">Save</string>
+  <string name="menu_save">Gravar</string>
   <!-- Heading of the Join Contact screen -->
   <string name="titleJoinContactDataWith">Associar contactos</string>
   <!-- Info blurb on the Join Contact screen [CHAR LIMIT=NONE]-->
@@ -199,7 +199,7 @@
   <!-- Toast displayed when saving a contact failed. [CHAR LIMIT=NONE] -->
   <string name="contactSavedErrorToast">Não foi possível guardar as alterações do contacto.</string>
   <!-- Toast displayed when saving a contact photo failed. [CHAR LIMIT=NONE] -->
-  <string name="contactPhotoSavedErrorToast">Couldn\'t save contact photo changes.</string>
+  <string name="contactPhotoSavedErrorToast">Não foi possível salvar alterações de foto de contato.</string>
   <!-- Toast displayed when a group is saved [CHAR LIMIT=NONE] -->
   <string name="groupSavedToast">Grupo guardado.</string>
   <!-- Toast displayed when saving a group failed [CHAR LIMIT=NONE] -->
@@ -287,9 +287,9 @@
   <!-- String describing which account type a contact came from when editing it -->
   <string name="account_type_format">Contacto de <xliff:g id="SOURCE">%1$s</xliff:g></string>
   <!-- String describing that a contact came from the google account type when editing it.  -->
-  <string name="google_account_type_format"><xliff:g id="source" example="Google">%1$s</xliff:g> account</string>
+  <string name="google_account_type_format"><xliff:g id="source" example="Google">%1$s</xliff:g> conta</string>
   <!-- String describing which account a contact came from when editing it -->
-  <string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s</xliff:g></string>
+  <string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s </xliff:g></string>
   <!-- Text used to explain that a contact cannot be edited from the People application since the data is read only [CHAR LIMIT=40] -->
   <string name="contact_read_only">Não editável a partir desta aplicação.</string>
   <!-- Text used to explain that a group cannot be edited since the data is read only [CHAR LIMIT=40] -->
@@ -483,7 +483,7 @@
   <!-- Title of sms action entry. [CHAR LIMIT=60] -->
   <string name="send_message">Enviar mensagem</string>
   <!-- Toast that appears when you are copying a directory contact into your personal contacts -->
-  <string name="toast_making_personal_copy">Creating a personal copy\u2026</string>
+  <string name="toast_making_personal_copy">A criar uma cópia pessoal\u2026</string>
   <!-- Timestamp string for interactions from yesterday. [CHAR LIMIT=40] -->
   <string name="yesterday">Ontem</string>
   <string name="tomorrow">Amanhã</string>
@@ -511,7 +511,7 @@
   <!-- Header for the Note entry [CHAR LIMIT=40] -->
   <string name="header_note_entry">Nota</string>
   <!-- Header for the Website entry [CHAR LIMIT=40] -->
-  <string name="header_website_entry">Website</string>
+  <string name="header_website_entry">Página Web</string>
   <!-- Header for the Event entry [CHAR LIMIT=40] -->
   <string name="header_event_entry">Evento</string>
   <!-- Header for the Relation entry [CHAR LIMIT=40] -->
@@ -550,9 +550,9 @@
   <!-- Button to expand the compact contact editor to show all available input fields. [CHAR LIMIT=60] -->
   <string name="compact_editor_more_fields">Mais campos</string>
   <!-- Content description for the compact contact editor photo overlay which, when clicked, shows a dialog with the options for changing the contact photo. [CHAR LIMIT=30] -->
-  <string name="compact_editor_change_photo_content_description">Change photo</string>
+  <string name="compact_editor_change_photo_content_description">Alterar fotografia</string>
   <!-- Quick contact display name with phonetic name -->
   <!-- Contact groups display  -->
-  <string name="contacts_groups_label">Groups</string>
-  <string name="group_editor_title">Edit group</string>
+  <string name="contacts_groups_label">Grupos</string>
+  <string name="group_editor_title">Editar grupo</string>
 </resources>
