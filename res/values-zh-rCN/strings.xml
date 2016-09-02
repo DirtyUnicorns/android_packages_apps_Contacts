@@ -546,6 +546,6 @@
   <string name="compact_editor_change_photo_content_description">更换照片</string>
   <!-- Quick contact display name with phonetic name -->
   <!-- Contact groups display  -->
-  <string name="contacts_groups_label">Groups</string>
-  <string name="group_editor_title">Edit group</string>
+  <string name="contacts_groups_label">群组</string>
+  <string name="group_editor_title">编辑群组</string>
 </resources>

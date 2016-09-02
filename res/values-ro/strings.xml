@@ -110,7 +110,7 @@
   <!-- Menu item that joins an aggregate with another aggregate -->
   <string name="menu_joinAggregate">Îmbinați</string>
   <!-- Menu item (in the action bar) to indicate that changes should be saved [CHAR LIMIT=20] -->
-  <string name="menu_save">Save</string>
+  <string name="menu_save">Salvaţi</string>
   <!-- Heading of the Join Contact screen -->
   <string name="titleJoinContactDataWith">Îmbinați intrările din Agendă</string>
   <!-- Info blurb on the Join Contact screen [CHAR LIMIT=NONE]-->
@@ -199,7 +199,7 @@
   <!-- Toast displayed when saving a contact failed. [CHAR LIMIT=NONE] -->
   <string name="contactSavedErrorToast">Nu s-au putut salva modificările aduse persoanei de contact.</string>
   <!-- Toast displayed when saving a contact photo failed. [CHAR LIMIT=NONE] -->
-  <string name="contactPhotoSavedErrorToast">Couldn\'t save contact photo changes.</string>
+  <string name="contactPhotoSavedErrorToast">Nu s-au putut salva modificările.</string>
   <!-- Toast displayed when a group is saved [CHAR LIMIT=NONE] -->
   <string name="groupSavedToast">Grupul a fost salvat.</string>
   <!-- Toast displayed when saving a group failed [CHAR LIMIT=NONE] -->
@@ -290,9 +290,9 @@
   <!-- String describing which account type a contact came from when editing it -->
   <string name="account_type_format">Persoana din agendă din <xliff:g id="SOURCE">%1$s</xliff:g></string>
   <!-- String describing that a contact came from the google account type when editing it.  -->
-  <string name="google_account_type_format"><xliff:g id="source" example="Google">%1$s</xliff:g> account</string>
+  <string name="google_account_type_format"><xliff:g id="source" example="Google">%1$s </xliff:g> cont</string>
   <!-- String describing which account a contact came from when editing it -->
-  <string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s</xliff:g></string>
+  <string name="from_account_format"><xliff:g id="source" example="user@gmail.com">%1$s </xliff:g></string>
   <!-- Text used to explain that a contact cannot be edited from the People application since the data is read only [CHAR LIMIT=40] -->
   <string name="contact_read_only">Nu se poate edita din această aplicație</string>
   <!-- Text used to explain that a group cannot be edited since the data is read only [CHAR LIMIT=40] -->
@@ -490,7 +490,7 @@
   <!-- Title of sms action entry. [CHAR LIMIT=60] -->
   <string name="send_message">Trimiteți mesajul</string>
   <!-- Toast that appears when you are copying a directory contact into your personal contacts -->
-  <string name="toast_making_personal_copy">Creating a personal copy\u2026</string>
+  <string name="toast_making_personal_copy">\"Se creează o copie personală...\"</string>
   <!-- Timestamp string for interactions from yesterday. [CHAR LIMIT=40] -->
   <string name="yesterday">Ieri</string>
   <string name="tomorrow">Mâine</string>
@@ -557,9 +557,9 @@
   <!-- Button to expand the compact contact editor to show all available input fields. [CHAR LIMIT=60] -->
   <string name="compact_editor_more_fields">Mai multe câmpuri</string>
   <!-- Content description for the compact contact editor photo overlay which, when clicked, shows a dialog with the options for changing the contact photo. [CHAR LIMIT=30] -->
-  <string name="compact_editor_change_photo_content_description">Change photo</string>
+  <string name="compact_editor_change_photo_content_description">Schimbați fotografia</string>
   <!-- Quick contact display name with phonetic name -->
   <!-- Contact groups display  -->
-  <string name="contacts_groups_label">Groups</string>
-  <string name="group_editor_title">Edit group</string>
+  <string name="contacts_groups_label">Grupuri</string>
+  <string name="group_editor_title">Editaţi grupul</string>
 </resources>
